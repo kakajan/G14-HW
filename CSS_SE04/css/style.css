@@ -1,54 +1,71 @@
 nav ul li {
-    float: left;
-    list-style: none;
-    padding: 5px 15px;
-    margin-left: 15px;
-    background-color: orange;
-    border-radius: 15px;
+  /* float: left; */
+  list-style: none;
+  padding: 5px 15px!important;
+  margin-left: 15px;
+  background-color: orange;
+  border-radius: 15px;
 }
 ul li a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+.mt-5{
+    margin-top: 50px;
+}
+.d-flex {
+  padding: 0;
+  display: flex;
+}
+.j-between {
+    justify-content: space-around;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.menu li:first-child {
+  margin-left: 0;
 }
 header a img {
-width: 60px;
+  width: 60px;
 }
-header>a {
-    float: right;
+header > a {
+  float: right;
 }
-nav>a {
-color: white;
-background: orange;
-text-decoration: none;
-padding:5px 15px ;
-border-radius: 8px;
-transition: all 0.6s;
+nav > a {
+  color: white;
+  background: orange;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 8px;
+  transition: all 0.6s;
 }
-nav>a:visited{
-    color: rgb(244, 212, 212);
-    background-color: rgb(55, 38, 154);
-    transition: all 1s;
+nav > a:visited {
+  color: rgb(244, 212, 212);
+  background-color: rgb(55, 38, 154);
+  transition: all 1s;
 }
-nav>a:hover{
-    color: black;
-    background-color: rgb(255, 204, 0);
-    transition: all 1s;
+nav > a:hover {
+  color: black;
+  background-color: rgb(255, 204, 0);
+  transition: all 1s;
 }
 
-nav>a:active{
-    color: rgb(255, 255, 255);
-    background-color: rgb(246, 83, 13);
-    transition: all 1s;
+nav > a:active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(246, 83, 13);
+  transition: all 1s;
 }
 
 .r8 {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 .r15 {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 .floatPart::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  content: "";
+  clear: both;
+  display: table;
+}
