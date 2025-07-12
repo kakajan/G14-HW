@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+.holder {
+    text-align: center;
+    padding: 45px 0;
+}
+header {
+    background-color: #1ABC9C;
+    color: white;
+}
+nav {
+    background-color: #333333;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: #D9D9D9;
+    color: #333;
+}
+.striped div{
+    height: 50px;
+    background-color: #D9D9D9;
+}
+.striped div:nth-child(even){
+    background-color: #0068c9!important;
+}
