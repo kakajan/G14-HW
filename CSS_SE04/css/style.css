@@ -35,7 +35,7 @@ header > a {
 }
 nav > a {
   color: white;
-  background: orange;
+  background: rgb(41, 142, 215);
   text-decoration: none;
   padding: 5px 15px;
   border-radius: 8px;
